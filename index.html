@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand active"  aria-current="page" href="index.html">About Me</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"href="food.html">Favorite Food</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="place.html">Favorite Places</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobbies.html">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jobs.html">Future Job</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/302068571_10209735558862123_7094411244812981688_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHkYyYmi3TASARNDuiBG5lnDINvfRs1SL4Mg299GzVIvlF-2LWJtNepS3jCFqqLlMU&_nc_ohc=s1tlczzuSZQAX8XSPJb&_nc_ht=scontent.fmnl3-4.fna&oh=00_AfAb86BSB7M3LaDmh9P_9nJcwf4XOCU7jN9-E7fivzW0WQ&oe=63780F26" class="d-block w-100"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.18169-9/28379181_10204381284568612_1987730029499437709_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEL9LBV2SB8u45FbFCEaYx0WTDusKAsyGxZMO6woCzIbE82Yr8P1vz5PZx6cynoeGY&_nc_ohc=ke1lxa36uXEAX9xVF_7&_nc_ht=scontent.fmnl3-1.fna&oh=00_AfAKAbbSJJQikVbgzCYZ_12xdYgE1aHFV7a6dJzjYtJz7Q&oe=63998181" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/270047834_10209195415198869_6420767943889147685_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFxjYgDqB6WU7ulf4O3XyFW17C8Cv-rmsTXsLwK_6uaxFKrTMV2Ny7h9Sx1PPRxeDU&_nc_ohc=cQ2ZMJS0CtMAX9_GVov&tn=8Rc48DqOUSIMrIax&_nc_ht=scontent.fmnl3-4.fna&oh=00_AfCDNXQ__SmsNNfMrXvv27NK9lmV-hrlEYO-KzLKouFXbA&oe=63768728" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <h1>About Me</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Short description
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Name: </strong>Corbin E. Rodriguez
+          <br><strong>Age: </strong>21
+          <br><strong>Birhtdate: </strong>December 16, 2000
+          <br><strong>Hometown: </strong>Philippines
+          <br><strong>Current School: </strong>National University Fairview
+            
+      </div>
+    </div>
+    </div>
+  </div>
+</html>
